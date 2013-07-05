@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --harmony -R dot -u tdd $(find tests -name 'test_*.js')",
+    "start": "node --harmony index.js"
+  },
+  "dependencies" : {
+    "async"  :  "~0.x.x",
+    "js-yaml" : "~2.x.x",
+    "express" : "~3.x.x",
+    "commander" : "~1.x.x"
+  },
+  "engines": {
+    "node": ">=0.8.7"
+  }
+}
+
