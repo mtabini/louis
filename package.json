@@ -14,7 +14,9 @@
     "marked" : "~0.x.x",
     "colors" : "~0.x.x",
     "ncp" : "git://github.com/mtabini/ncp.git",
-    "iconv" : "~2.x.x"
+    "iconv" : "~2.x.x",
+    "moment" : "~2.x.x",
+    "humanize" : "~0.x.x"
   },
   "engines": {
     "node": ">=0.8.7"
