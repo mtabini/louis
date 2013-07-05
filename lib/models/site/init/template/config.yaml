@@ -1,0 +1,25 @@
+# Louis configuration file
+# This file is used to provide some information about your site
+
+site:
+
+    # The site's title
+    
+    title: The Curious Case of Dr. Jekyll and Mr. Hyde
+    tagline: “If he be Mr. Hyde,” he had thought “I shall be Mr. Seek.” 
+    author: R. L. Stevenson
+    
+templates:
+    
+    # The default mustache templates to be used for the various pages
+    
+    page: page.html
+    history: history.html
+    
+deploy:
+    
+    # The deployment target and credentials for S3
+    
+    bucket: blog.example.org
+    accessKey: access
+    secretKey: sekret
