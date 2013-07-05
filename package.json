@@ -13,7 +13,8 @@
     "mustache" : "~0.x.x",
     "marked" : "~0.x.x",
     "colors" : "~0.x.x",
-    "ncp" : "git://github.com/mtabini/ncp.git"
+    "ncp" : "git://github.com/mtabini/ncp.git",
+    "iconv" : "~2.x.x"
   },
   "engines": {
     "node": ">=0.8.7"

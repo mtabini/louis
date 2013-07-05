@@ -13,6 +13,7 @@ templates:
     
     # The default mustache templates to be used for the various pages
     
+    post: post.html
     page: page.html
     history: history.html
     

@@ -1,0 +1,6 @@
+title: {{title}}
+author: {{author}}
+
+slug: {{slug}}
+
+template: <default>
