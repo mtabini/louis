@@ -16,9 +16,7 @@ templates:
     post: post.html
     page: page.html
     index: index.html
-    archive: 
-        main: archive.html
-        monthly: archive_monthly.html
+    archive: archive.html
     
 special:
     
