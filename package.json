@@ -11,7 +11,7 @@
     "express" : "~3.x.x",
     "commander" : "~1.x.x",
     "mu2" : "~0.x.x",
-    "marked" : "~0.x.x",
+    "multimarkdown" : "~0.x.x",
     "colors" : "~0.x.x",
     "ncp" : "git://github.com/mtabini/ncp.git",
     "iconv" : "~2.x.x",
