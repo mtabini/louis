@@ -3,7 +3,7 @@
 
 site:
 
-    # The site's title
+    # The site's title and information
     
     title: The Curious Case of Dr. Jekyll and Mr. Hyde
     tagline: “If he be Mr. Hyde,” he had thought “I shall be Mr. Seek.” 
@@ -15,7 +15,16 @@ templates:
     
     post: post.html
     page: page.html
-    history: history.html
+    index: index.html
+    archive: archive.html
+    
+index:
+    
+    postCount: 10
+    
+archive:
+    
+    postsPerPage: 10
     
 deploy:
     
