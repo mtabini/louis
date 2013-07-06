@@ -20,11 +20,9 @@ templates:
     
 index:
     
+    # Number of posts to show on index page
+    
     postCount: 10
-    
-archive:
-    
-    postsPerPage: 10
     
 deploy:
     
