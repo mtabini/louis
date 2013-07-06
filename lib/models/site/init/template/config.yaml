@@ -8,7 +8,48 @@ site:
     title: The Curious Case of Dr. Jekyll and Mr. Hyde
     tagline: “If he be Mr. Hyde,” he had thought “I shall be Mr. Seek.” 
     author: R. L. Stevenson
+    url: http://blog.example.org
     
+feed:
+    
+    # Your site's feed data.
+    
+    itemCount: 15
+    
+    title: title
+    description: description
+    
+    # Note: Louis places its feed in the rss.xml file in
+    #       the topmost directory of your site.
+    
+    feed_url: http://example.com/rss.xml
+    site_url: http://example.com
+    image_url: http://example.com/icon.png
+    docs: http://example.com/rss/docs.html
+    author: Dylan Greene
+    managingEditor: Dylan Greene
+    webMaster: Dylan Greene
+    copyright: 2013 Dylan Greene
+    language: en
+    categories: 
+        - Category 1
+        - Category 2
+        - Category 3
+    pubDate: May 20, 2012 04:00:00 GMT
+    ttl: 60
+    
+deploy:
+    
+    # The deployment target and credentials for S3
+    
+    bucket: blog.example.org
+    accessKey: access
+    secretKey: sekret
+
+#
+# It's unlikely you'll have to change anything below this line.
+#
+
 templates:
     
     # The default mustache templates to be used for the various pages
@@ -24,10 +65,3 @@ special:
     
     postCount: 10
     
-deploy:
-    
-    # The deployment target and credentials for S3
-    
-    bucket: blog.example.org
-    accessKey: access
-    secretKey: sekret

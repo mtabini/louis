@@ -3,4 +3,6 @@ author: {{author}}
 
 slug: {{slug}}
 
+categories: []
+
 template: <default>
