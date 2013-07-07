@@ -19,7 +19,11 @@
     "humanize" : "~0.x.x",
     "rimraf" : "~2.x.x",
     "rss" : "~0.2.x",
-    "watch" : "~0.x.x"
+    "watch" : "~0.x.x",
+    "knox" : "~0.x.x",
+    "walk" : "~2.x.x",
+    "mime" : "~1.x.x",
+    "fortknox" : "~0.x.x"
   },
   "engines": {
     "node": ">=0.8.7"
