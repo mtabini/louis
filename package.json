@@ -18,7 +18,8 @@
     "moment" : "~2.x.x",
     "humanize" : "~0.x.x",
     "rimraf" : "~2.x.x",
-    "rss" : "~0.2.x"
+    "rss" : "~0.2.x",
+    "watch" : "~0.x.x"
   },
   "engines": {
     "node": ">=0.8.7"
