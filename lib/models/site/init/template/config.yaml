@@ -59,7 +59,7 @@ templates:
     index: index.html
     archive: archive.html
     
-special:
+index:
     
     # Number of posts to show on index page
     
