@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    text-rendering: optimizeLegibility;
+    background: $backgroundColor;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+a {
+    color: $linkColor;
+}
+
+a:visited {
+    color: $visitedLinkColor;
+}
+
+body {
+	line-height: 1.5em;
+    width: $desktopBodyWidth;
+    margin: auto;
+    margin-top: 5em;
+}
+
+h1 {
+    margin-bottom: 0;
+    font: $h1Font;
+}
+
+h2 {
+    font: $h2Font;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+ol, ul {
+	list-style: square;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.mobileOnly {
+    display: none;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+    
+    body {
+
+        margin-top: 1em;
+        width: 320px;
+        
+    }
+    
+    .mobileOnly {
+        display: block;
+    }
+    
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px)
+and (orientation: landscape) { 
+    
+    body {
+        width: 480px;        
+    }
+    
+}
+
+
+@media only screen 
+and (device-aspect-ratio: 40/71)
+and (orientation: landscape) { 
+    
+    body {
+        width: 568px;        
+    }
+    
+}

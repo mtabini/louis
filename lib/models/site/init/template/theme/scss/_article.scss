@@ -1,0 +1,268 @@
+article {
+    
+    @include desktopMainSection;
+        
+    h1 {
+        margin-bottom: 0.2em;
+        color: $h1Color;
+    }
+    
+    h2 {
+        color: $h2Color;
+    }
+    
+    p {
+        margin-bottom: 1em;
+    }
+    
+    p+p {
+        line-indent: 1em;
+    }
+    
+    div.byline {
+        
+        font: $bylineFont;
+        color: $bylineColor;
+        
+        margin-bottom: 1em;
+        
+    }
+    
+    section.dek {
+        
+        font: $dekFont;
+        color: $dekColor;
+        
+        margin-bottom: 1em;
+        
+    }
+    
+    section.body {
+        font: $bodyFont;
+        color: $bodyColor;
+        
+    }
+    
+}
+
+div.separator {
+    height: 4em;
+    text-align: center;
+ 
+    position: relative;
+    border-left: 1px solid #f0f0f0;
+    width: 600px;
+    
+    padding: 2em 0;
+    padding-left: 40px;
+    margin-left: 160px;    
+}
+
+nav.archive {
+    
+    color: $archiveNavColor;
+    font: $archiveNavFont;
+ 
+    ul {
+        @include desktopMainSection;
+        height: 2em;
+    }
+    
+    li {
+        width: 50%;
+        display: block;
+        float: left;
+        
+        &:last-of-type {
+            text-align: right;
+        }
+    }
+    
+}
+
+section.archive {
+    @include desktopMainSection;
+    
+    h2 {
+        font-size: 200%;
+        margin-bottom: 1em;
+    }
+    
+    ul {
+        column-count: 4;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px)
+and (orientation: portrait) { 
+    
+    article, section.archive {
+        
+        div.byline {
+            font-size: 12px;
+        }
+        
+        h1 {
+            font-size: 22px;
+            margin-bottom: 1em;
+        }
+        
+        h2 {
+            font-size: 16px;
+        }
+        
+        p {
+            font-size: 16px;
+        }
+        
+        section.dek {
+            font-size: 16px;
+        }
+
+        @include mobileMainSection;
+        
+    }
+    
+    div.separator, nav.archive ul {
+        @include mobileMainSection;
+    }
+
+    section.archive {
+        h2 {
+            font-size: 140%;
+            margin-bottom: 0;
+        }
+    
+        ul {
+            width: 320px;
+            column-count: 2;
+            font-size: 14px;
+            list-style: none;
+        }
+    }
+
+}
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px)
+and (orientation: landscape) { 
+
+    div.separator {
+        @include mobileMainSectionLandscape;
+    }
+
+    article, section.archive {
+        @include mobileMainSectionLandscape;
+ 
+        div.byline {
+            font-size: 8px;
+        }
+        
+        h1 {
+            font-size: 22px;
+            margin-bottom: 1em;
+        }
+        
+        h2 {
+            font-size: 10px;
+        }
+        
+        p {
+            font-size: 10px;
+        }
+        
+        section.dek {
+            font-size: 16px;
+        }
+
+        section.archive {
+            h2 {
+                font-size: 140%;
+                margin-bottom: 0;
+            }
+    
+            ul {
+                width: 480px;
+                column-count: 2;
+                font-size: 14px;
+                list-style: none;
+            }
+        }
+    }
+    
+    nav.archive {
+        ul {
+            @include mobileMainSectionLandscape;
+            width: 480px;
+        }
+    }
+
+    div.separator {
+        width: 440px;
+    }
+
+    article, section.archive {
+        width: 440px;
+    }
+
+}
+
+@media only screen 
+and (device-aspect-ratio: 40/71)
+and (orientation: landscape) { 
+    
+    div.separator {
+        @include mobileMainSectionLandscape;
+    }
+
+    article, section.archive {
+        @include mobileMainSectionLandscape;
+ 
+        div.byline {
+            font-size: 8px;
+        }
+        
+        h1 {
+            font-size: 22px;
+            margin-bottom: 1em;
+        }
+        
+        h2 {
+            font-size: 10px;
+        }
+        
+        p {
+            font-size: 10px;
+        }
+        
+        section.dek {
+            font-size: 16px;
+        }
+        
+        nav.archive {
+            ul {
+                @include mobileMainSectionLandscape;
+            }
+        }
+
+        section.archive {
+            h2 {
+                font-size: 140%;
+                margin-bottom: 0;
+            }
+    
+            ul {
+                width: 568px;
+                column-count: 2;
+                font-size: 14px;
+                list-style: none;
+            }
+        }
+    }
+    
+}
+

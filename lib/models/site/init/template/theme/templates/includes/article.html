@@ -1,0 +1,27 @@
+<article>
+    
+    <div class="byline">
+        Posted {{ formattedDate }}{{ page.formattedDate }} by {{ config.author }}{{ page.config.author }} · <a rel="bookmark" href="/{{ config.slug }}{{ page.config.slug }}">Permalink</a>
+    </div>
+
+    <h1>
+        {{ config.title }}{{ page.config.title }}
+    </h1>
+    
+    {{ #config.dek }}
+        <section class="dek">
+            {{ config.dek }}
+        </section>
+    {{ /config.dek }}
+    
+    {{ #page.config.dek }}
+        <section class="dek">
+            {{ page.config.dek }}
+        </section>
+    {{ /page.config.dek }}
+    
+    <section class="body">
+        {{{ content }}}
+    </section>
+
+</article>

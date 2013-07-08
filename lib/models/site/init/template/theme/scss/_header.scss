@@ -1,0 +1,122 @@
+header {
+    @include desktopHeader;
+    
+    float: left;
+    
+    color: $headerForegroundColor;
+    
+    text-align: center;
+
+    div.monogram {
+        text-align: center;
+        
+        a {
+            text-decoration: none;
+        }
+    }
+    
+    svg {
+        width: 140px;
+        height: 140px;
+        
+        circle.outerCircle {
+            stroke: $monogramStrokeColor;
+            stroke-width: 1px;
+            fill: transparent;
+        }
+        
+        circle.innerCircle {
+            fill: $monogramFillColor;
+        }
+        
+        text {
+            fill: $monogramTextColor;
+            font-family: Helvetica Neue, Helvetica, sans-serif;
+            font-size: 80px;
+            dominant-baseline: central;
+        }
+    }
+    
+    h1 {
+        margin: 1em 0;
+        font: $headerFont;
+    }
+    
+    div.author {
+        font: $headerAuthorFont;
+        margin-bottom: 1em;
+    }
+
+    p.tagline {
+        font: $headerTaglineFont;
+        color: $headerTaglineColor;
+        margin-bottom: 1em;
+    }
+    
+    hr {
+        border: none;
+        background: #ddd;
+        height: 1px;
+        margin: 2em 0;
+    }
+    
+    h2.archive {
+        font: $headerFont;
+        font-variant: small-caps;
+        margin-bottom: 1em;
+    }
+    
+    nav ul {
+        
+        list-style: none;
+        
+    }
+    
+    svg {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+    
+    header {
+        @include mobileMainSection;
+        float: none;
+    }
+    
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px)
+and (orientation: landscape) { 
+    
+    header {
+        width: 440px;
+    }
+
+    nav ul li {
+        font-size: 60%;
+        line-height: 130%;
+    }
+}
+
+@media only screen 
+and (device-aspect-ratio: 40/71)
+and (orientation: landscape) { 
+    
+    header {
+        @include mobileMainSectionLandscape;
+        float: none;
+    }
+    
+
+    nav ul li {
+        font-size: 60%;
+        line-height: 130%;
+    }
+}
+

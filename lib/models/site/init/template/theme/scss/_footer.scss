@@ -1,0 +1,40 @@
+footer {
+    color: $footerColor;
+    font: $footerFont;
+    
+    @include desktopMainSection;
+
+    text-align: center;
+    
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) { 
+
+    footer {
+
+        @include mobileMainSection;
+        
+        font-size: 60%;
+        
+    }
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px)
+and (orientation: landscape) { 
+
+    footer {
+        
+        @include mobileMainSectionLandscape;
+
+        font-size: 60%;
+        
+    }
+
+}

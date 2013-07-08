@@ -1,0 +1,84 @@
+/* Document */
+
+$h1Font: bold 320%/1.1em Helvetica;
+$h2Font: bold 100%/1.1em Palatino;
+
+$linkColor: #44f;
+$visitedLinkColor: #555;
+
+$backgroundColor: #fff;
+
+$desktopBodyWidth: 800px;
+
+@mixin desktopHeader {
+    position: relative;
+    width: 120px;
+}
+
+@mixin desktopMainSection {
+    position: relative;
+    margin-left: 160px;
+    padding-left: 40px;
+    border-left: 1px solid #f0f0f0;
+    width: 600px;
+}
+
+@mixin mobileMainSection {
+    width: 280px;
+    display: block;
+    
+    margin: 20px 20px;
+    padding: 0;
+    
+    border: none;
+}
+
+@mixin mobileMainSectionLandscape {
+    width: 528px;
+    display: block;
+    
+    margin: 20px 20px;
+    padding: 0;
+    
+    border: none;
+}
+
+/* Header */
+
+$headerForegroundColor: #111;
+$headerFont: bold 15px/1.5em Palatino;
+
+$headerTaglineFont: italic 13px/1.5em Palatino;
+$headerTaglineColor: #888;
+
+$headerAuthorFont: bold small-caps 13px/1.5em Palatino;
+
+/* Monogram */
+
+$monogramFillColor: #555;
+$monogramStrokeColor: #555;
+$monogramTextColor: #fff;
+
+/* Article */
+
+$h1Color: #353535;
+$h2Color: #222;
+
+$bylineFont: 400 13px/1.5em "Helvetica Neue";
+$bylineColor: #aaa;
+
+$dekFont: italic 24px/1.4em "Palatino";
+$dekColor: #666;
+
+$bodyFont: 22px/1.4em "Palatino";
+$bodyColor: #555;
+
+/* Archive */
+
+$archiveNavFont: 16px/1.5em "Helvetica Neue";
+$archiveNavColor: #777;
+
+/* Footer */
+
+$footerFont: 13px/1.5 "Helvetica Neue";
+$footerColor: #999;

@@ -26,10 +26,10 @@ feed:
     site_url: http://example.com
     image_url: http://example.com/icon.png
     docs: http://example.com/rss/docs.html
-    author: Dylan Greene
-    managingEditor: Dylan Greene
-    webMaster: Dylan Greene
-    copyright: 2013 Dylan Greene
+    author: Robert Louis Stevenson
+    managingEditor: Robert Louis Stevenson
+    webMaster: Robert Louis Stevenson
+    copyright: 2013 Robert Louis Stevenson
     language: en
     categories: 
         - Category 1

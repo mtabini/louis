@@ -1,0 +1,29 @@
+{{> includes/header.html }}
+
+{{#archive.pages}}
+
+    {{> includes/article.html }}
+    
+    <div class="separator">
+        <img src="/img/tombstone.svg">
+    </div>
+
+{{/archive.pages}}
+
+<nav class="archive">
+    <ul>
+        <li>
+            {{ #prev }}
+                <a href="{{ prev.link }}" rel="prev">← {{ prev.longTitle }}</a>
+            {{ /prev }}
+        </li>
+        <li>
+            {{ #next }}
+                <a href="{{ next.link }}" rel="next">{{ next.longTitle }} →</a>
+            {{ /next }}
+        </li>
+    </ul>
+</nav>
+
+{{> includes/footer.html }}
+

@@ -1,0 +1,33 @@
+{{> includes/header.html }}
+
+<section class="posts">
+
+    {{ #posts }}
+
+        {{> includes/article.html }}
+    
+        <div class="separator">
+            <img src="/img/tombstone.svg">
+        </div>
+
+    {{ /posts }}
+    
+</section>
+
+<section class="archive">
+    
+    <h2> Archives </h2>
+    
+    <ul>
+    
+    {{ #archive }}
+    
+    <li>
+        <a href="{{ link }}" rel="archive">{{ title }}</a>
+    </li>
+    
+    {{ /archive }}
+    
+</section>
+
+{{> includes/footer.html }}
