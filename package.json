@@ -1,6 +1,14 @@
 {
   "name": "louis",
-  "version" : "0.5.0",
+  "version" : "0.7.0",
+  "author": "Marco Tabini <marcot@tabini.ca>",
+  "description": "A distressingly simple static site generator for S3.",
+  "homepage": "https://github.com/mtabini/louis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtabini/louis.git"
+  },
+  "keywords" : ["blog", "website", "s3", "markdown", "multimarkdown", "static site", "mustache"],
   "bin" : { "louis" : "./index.js" },
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --harmony -R dot -u tdd $(find tests -name 'test_*.js')",
