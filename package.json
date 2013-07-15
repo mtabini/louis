@@ -1,6 +1,6 @@
 {
   "name": "louis",
-  "version" : "0.7.2",
+  "version" : "0.7.4",
   "author": "Marco Tabini <marcot@tabini.ca>",
   "description": "A distressingly simple static site generator for S3.",
   "homepage": "https://github.com/mtabini/louis",
