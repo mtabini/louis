@@ -1,6 +1,6 @@
 {
   "name": "louis",
-  "version" : "0.7.4",
+  "version" : "0.7.5",
   "author": "Marco Tabini <marcot@tabini.ca>",
   "description": "A distressingly simple static site generator for S3.",
   "homepage": "https://github.com/mtabini/louis",
@@ -20,7 +20,7 @@
     "express" : "~3.x.x",
     "commander" : "~1.x.x",
     "mu2" : "git://github.com/mtabini/Mu.git",
-    "multimarkdown" : "~0.x.x",
+    "multimarkdown" : "git://github.com/mtabini/node-multimarkdown.git",
     "colors" : "~0.x.x",
     "ncp" : "git://github.com/mtabini/ncp.git",
     "iconv" : "~2.x.x",
