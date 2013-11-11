@@ -1,6 +1,6 @@
 # Louis: Serve your blog from S3 in five minutes or less
 
-Louis generates static blog from the command line and automatically uploads them to S3. It's dead simple to use and requires very little set up.
+Louis generates static blogs from the command line and automatically uploads them to S3. It's dead simple to use and requires very little set up.
 
 It uses MultiMarkdown for inputting blog posts and pages, and comes with a ready-made theme (but you can also roll your own with [Mustache](http://mustache.github.io)).
 
